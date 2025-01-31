@@ -5,7 +5,6 @@ import { Logger } from 'nestjs-pino';
 import { ConfigService } from '@nestjs/config';
 import * as cookieParser from 'cookie-parser';
 import { Transport } from '@nestjs/microservices';
-import { config } from 'rxjs';
 
 async function bootstrap() {
   const app = await NestFactory.create(AuthModule);
